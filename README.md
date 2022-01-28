@@ -6,28 +6,28 @@ After extraction go to simple-file-manager folder and open your cmd (comand prom
     php composer dump-autoload -o
     
 ### Application Test Case
-**Title:** Add File
-**Description:** An User should be able to add file.
-**Precondition:** The user can upload only allowed file format. By default user can upload any kind of file format except .php and .html extension.
-**Assumption:** A supported browser is being used.
+**Title:** Add File<br/>
+**Description:** An User should be able to add file.<br/>
+**Precondition:** The user can upload only allowed file format. By default user can upload any kind of file format except .php and .html extension.<br/>
+**Assumption:** A supported browser is being used.<br/>
 **Test Steps:**
 - Navigate to {your host}/simple-file-manager
 - In the right top corner you can see Add File button
 - Click the button and drop or browse your file to add.
 
-**Title:** Create Folder
-**Description:** An User should be able to create folder.
-**Precondition:** Creating folder name should be valid text format, avoid special character in your folder name.
-**Assumption:** A supported browser is being used.
+**Title:** Create Folder<br/>
+**Description:** An User should be able to create folder.<br/>
+**Precondition:** Creating folder name should be valid text format, avoid special character in your folder name.<br/>
+**Assumption:** A supported browser is being used.<br/>
 **Test Steps:**
 - Navigate to {your host}/simple-file-manager
 - In the right top corner you can see Create Folder button
 - Click the button and enter valid folder name.
 
-**Title:** Download/Delete/Rename File and Folder.
-**Description:** An User should be able to download/delete/rename file and folder.
-**Precondition:** Rename folder name should be valid text format, avoid special character in your folder name.
-**Assumption:** A supported browser is being used.
+**Title:** Download/Delete/Rename File and Folder.<br/>
+**Description:** An User should be able to download/delete/rename file and folder.<br/>
+**Precondition:** Rename folder name should be valid text format, avoid special character in your folder name.<br/>
+**Assumption:** A supported browser is being used.<br/>
 **Test Steps:**
 - Navigate to {your host}/simple-file-manager
 - Right click on your file and folder.
@@ -35,10 +35,10 @@ After extraction go to simple-file-manager folder and open your cmd (comand prom
 - Then choose your option to download/delete/rename and click the button.
 - To renaming folder or file name enter valid name.
 
-**Title:** Setting or Configure your file manager.
-**Description:** An User should be able to allow/disallow add file, create folder, download file, direct download link and set max upload size.
-**Precondition:** To configure file manager you need to login admin panel using a valid username and password.
-**Assumption:** A supported browser is being used.
+**Title:** Setting or Configure your file manager.<br/>
+**Description:** An User should be able to allow/disallow add file, create folder, download file, direct download link and set max upload size.<br/>
+**Precondition:** To configure file manager you need to login admin panel using a valid username and password.<br/>
+**Assumption:** A supported browser is being used.<br/>
 **Test Steps:**
 -  Navigate to {your host}/simple-file-manager
 - In the right top corner you can see Setting link
